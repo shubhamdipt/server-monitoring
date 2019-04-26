@@ -27,5 +27,5 @@ URL = <the url where data needs to be sent.>
 
 Initiate a cron job running the main.py script.
 ```
-$python main.py
+*/5 * * * * /root/server-monitoring/run.sh
 ```
